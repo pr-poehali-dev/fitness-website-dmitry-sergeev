@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/accordion';
 
 const TRAINER_IMG =
-  'https://cdn.poehali.dev/projects/c5a54fa1-9851-4895-abee-3b53ecf4fc43/files/9ef5ede2-07bc-4e62-bd20-36eab58288c2.jpg';
+  'https://cdn.poehali.dev/projects/c5a54fa1-9851-4895-abee-3b53ecf4fc43/files/572fb5e3-db0c-42de-b9e4-d507953d657e.jpg';
 
 const nav = [
   { id: 'about', label: 'Обо мне' },
@@ -218,7 +218,7 @@ export default function Index() {
               <img
                 src={TRAINER_IMG}
                 alt="Дмитрий Сергеев"
-                className="w-full h-[520px] object-cover"
+                className="w-full h-[440px] sm:h-[520px] object-cover object-top"
               />
               <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
                 <div className="bg-primary text-primary-foreground px-4 py-2 rounded-xl font-display font-bold uppercase">
